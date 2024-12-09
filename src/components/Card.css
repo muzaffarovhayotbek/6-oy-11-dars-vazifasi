@@ -1,0 +1,250 @@
+.card {
+  margin-top: 48px;
+  margin-bottom: 75px;
+}
+
+.card__container {
+  display: flex;
+  gap: 75px;
+}
+
+.card-first {
+  width: 264px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px 2px #00000008;
+}
+.card-first h2 {
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  color: #111517;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.card-first-titles {
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 46px;
+}
+.population {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #111517;
+  padding-bottom: 8px;
+}
+.population span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.region {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 8px;
+}
+.region span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.capital {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.capital span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.card-two {
+  width: 264px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px 2px #00000008;
+}
+.card-two h2 {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  color: #111517;
+}
+.usa-titles {
+  padding-left: 24px;
+}
+
+.usa-titles-population {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.usa-titles-population span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.usa-titles-region {
+  padding-top: 8px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.usa-titles-region span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.usa-titles-capital {
+  padding-top: 8px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.usa-titles-capital span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.card-three {
+  width: 264px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px 2px #00000008;
+  border-radius: 5px;
+}
+.card-three h2 {
+  padding-top: 24px;
+  padding-left: 24px;
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.brazil-title {
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.brazil-population {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.brazil-population span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.brazil-title-region {
+  padding-top: 8px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.brazil-title-region span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.brazil-capital {
+  padding-top: 8px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.brazil-capital span {
+}
+
+.card-four {
+  width: 264px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px 2px #00000008;
+}
+
+.card-four h2 {
+  padding-top: 24px;
+  padding-left: 24px;
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  color: #111517;
+}
+
+.iceland-title {
+  padding-top: 16px;
+  padding-left: 24px;
+}
+.iceland-population {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.iceland-population span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.iceland-region {
+  padding-top: 8px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.iceland-region span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.iceland-capital {
+  padding-top: 8px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.iceland-capital span {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
