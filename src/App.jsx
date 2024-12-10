@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import { Route, Routes, useNavigate } from 'react-router-dom';
@@ -18,6 +18,7 @@ function App() {
   const [theme, setTheme] = useState('light');
   const [lang, setLang] = useState('uz');
   const navigate = useNavigate();
+  const [counter, setCounter] = useContext(0);
 
   useEffect(() => {
     if (localStorage.state?.token) {
@@ -78,6 +79,8 @@ function App() {
           </Routes>
         </LanguageContext.Provider>
       </ThemeContext.Provider>
+
+      <h3>{counter}</h3>
     </div>
   );
 }

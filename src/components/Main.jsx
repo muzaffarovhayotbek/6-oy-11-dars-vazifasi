@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import mainIcon from '../assets/search.svg';
 import './Main.css';
 
 function Main() {
   return (
-    <div className='container mx-auto'>
+    <div className="container mx-auto">
       <main className="main">
         <div className="container main__container">
           <div className="main-search">

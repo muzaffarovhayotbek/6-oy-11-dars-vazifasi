@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useRef } from 'react';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Card from '../components/Card';
@@ -8,6 +8,15 @@ import { ThemeContext } from '../App';
 
 function Home() {
   const { theme, setTheme } = useContext(ThemeContext);
+  const nameRef = useRef(null);
+  function handleSumbit(e) {
+    e.preventDefault();
+    console.log(nameRef.current.value);
+  }
+
+  function exit(event) {
+    confirm('Rostdan ham chiqmoqchimisiz?');
+  }
   return (
     <div className="container mx-auto">
       <div className="container flex justify-center">
@@ -24,10 +33,21 @@ function Home() {
           Login
         </NavLink>
       </div>
+      <div className="flex justify-end hover:underline font-medium">
+        <NavLink onClick={exit} to="/register">
+          Chiqish
+        </NavLink>
+      </div>
       <Header></Header>
       <Main></Main>
       <Card></Card>
       <Section></Section>
+
+      <form onSubmit={handleSumbit}>
+        <input type="text" ref={nameRef} />
+        <button>SAVE</button>
+      </form>
+      
     </div>
   );
 }
