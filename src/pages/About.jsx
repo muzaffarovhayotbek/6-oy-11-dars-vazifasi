@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { LanguageContext } from '../App';
 
 function About() {
-  return (
-    <div>
-      
-    </div>
-  )
+  const { lng, setLang } = useContext(LanguageContext);
+  console.log(5, );
+
+  return <div>
+    about
+  </div>;
 }
 
-export default About
+export default About;

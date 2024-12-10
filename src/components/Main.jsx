@@ -13,15 +13,9 @@ function Main() {
           </div>
           <div className="main-regions">
             <select className="main-select">
-              <option>Filter by Region</option>
-              <option>Germany</option>
-              <option>United States of America</option>
-              <option>Brazil</option>
-              <option>Iceland</option>
-              <option>Afghanistan</option>
-              <option>Åland Islands</option>
-              <option>Albania</option>
-              <option>Algeria</option>
+              <option>English</option>
+              <option>Russian</option>
+              <option>Uzbek</option>
             </select>
           </div>
         </div>

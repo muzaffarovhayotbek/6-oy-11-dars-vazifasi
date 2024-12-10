@@ -51,7 +51,7 @@ function Login() {
         if (response.status == 200) {
           localStorage.setItem('user', JSON.stringify(response.data));
           localStorage.setItem('token', response.data.accessToken);
-          navigate('/', {state: {token: response.data.accessToken}});
+          navigate('/', { state: { token: response.data.accessToken } });
         }
       })
       .catch((error) => {
@@ -100,7 +100,9 @@ function Login() {
         >
           {loading ? 'LOADING...' : 'Login'}
         </button>
-        <NavLink className='text-center  hover:underline ' to = '/register'>REGISTERGA O'TISH</NavLink>
+        <NavLink className="text-center  hover:underline " to="/register">
+          REGISTERGA O'TISH
+        </NavLink>
       </form>
     </div>
   );

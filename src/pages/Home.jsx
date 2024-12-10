@@ -26,6 +26,7 @@ function Home() {
         >
           Register
         </NavLink>
+        <NavLink to='/about'>about</NavLink>
         <NavLink
           to="/login"
           className="text-gray-800 hover:underline hover:-transparent font-semibold transition-colors"
@@ -43,10 +44,6 @@ function Home() {
       <Card></Card>
       <Section></Section>
 
-      <form onSubmit={handleSumbit}>
-        <input type="text" ref={nameRef} />
-        <button>SAVE</button>
-      </form>
       
     </div>
   );
