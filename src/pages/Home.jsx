@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Card from '../components/Card';
 import { NavLink } from 'react-router-dom';
 import Section from '../components/Section';
+import { ThemeContext } from '../App';
 
 function Home() {
+  const { theme, setTheme } = useContext(ThemeContext);
   return (
-    <div className='container mx-auto'>
+    <div className="container mx-auto">
       <div className="container flex justify-center">
         <NavLink
           to="/register"
